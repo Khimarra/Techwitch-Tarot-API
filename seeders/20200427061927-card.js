@@ -2,25 +2,65 @@
 
 module.exports = {
   up: (queryInterface, Sequelize) => {
-    /*
-      Add altering commands here.
-      Return a promise to correctly handle asynchronicity.
 
-      Example:
-      return queryInterface.bulkInsert('People', [{
-        name: 'John Doe',
-        isBetaMember: false
-      }], {});
-    */
+    return queryInterface.bulkInsert('Cards', [
+      {
+        suitId: 1,
+        cardName: 'First Card',
+        rwsImg: 'randomimg.png',
+        rwsBackImg: 'backimg.png',
+        uprightRead: 'basic reading upright',
+        reverseRead: 'basic reading reversed',
+        meaning: 'full interpretation',
+        history: 'history of specific card',
+        description: 'verbal description of imagery',
+        value: 1,
+        numerology: 'info about what the card means in numerology'
+      },
+      {
+        suitId: 1,
+        cardName: 'Second Card',
+        rwsImg: 'randomimg.png',
+        rwsBackImg: 'backimg.png',
+        uprightRead: 'basic reading upright',
+        reverseRead: 'basic reading reversed',
+        meaning: 'full interpretation',
+        history: 'history of specific card',
+        description: 'verbal description of imagery',
+        value: 1,
+        numerology: 'info about what the card means in numerology'
+      },
+      {
+        suitId: 1,
+        cardName: 'Third Card',
+        rwsImg: 'randomimg.png',
+        rwsBackImg: 'backimg.png',
+        uprightRead: 'basic reading upright',
+        reverseRead: 'basic reading reversed',
+        meaning: 'full interpretation',
+        history: 'history of specific card',
+        description: 'verbal description of imagery',
+        value: 1,
+        numerology: 'info about what the card means in numerology'
+      },
+      {
+        suitId: 2,
+        cardName: 'Fourth Card',
+        rwsImg: 'randomimg.png',
+        rwsBackImg: 'backimg.png',
+        uprightRead: 'basic reading upright',
+        reverseRead: 'basic reading reversed',
+        meaning: 'full interpretation',
+        history: 'history of specific card',
+        description: 'verbal description of imagery',
+        value: 1,
+        numerology: 'info about what the card means in numerology'
+      }
+    ], {});
   },
 
   down: (queryInterface, Sequelize) => {
-    /*
-      Add reverting commands here.
-      Return a promise to correctly handle asynchronicity.
 
-      Example:
-      return queryInterface.bulkDelete('People', null, {});
-    */
+    return queryInterface.bulkDelete('Cards', null, {});
   }
 };
