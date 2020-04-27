@@ -10,7 +10,9 @@ module.exports = {
         symbol: '',
         symbolImg: '',
         suitMeaning: 'Information about the meaning of the Major Arcana here... if there is any',
-        suitHistory: 'History of the Major Arcana here'
+        suitHistory: 'History of the Major Arcana here',
+        createdAt: new Date(),
+        updatedAt: new Date()
       },
       {
         arcana: 'Minor',
@@ -18,7 +20,9 @@ module.exports = {
         symbol: '',
         symbolImg: '',
         suitMeaning: 'Information about the meaning of Cups here',
-        suitHistory: 'History of Cups here'
+        suitHistory: 'History of Cups here',
+        createdAt: new Date(),
+        updatedAt: new Date()
       },
       {
         arcana: 'Minor',
@@ -26,7 +30,9 @@ module.exports = {
         symbol: '',
         symbolImg: '',
         suitMeaning: 'Information about the meaning of Pentacles here',
-        suitHistory: 'History of Pentacles here'
+        suitHistory: 'History of Pentacles here',
+        createdAt: new Date(),
+        updatedAt: new Date()
       },
       {
         arcana: 'Minor',
@@ -34,7 +40,9 @@ module.exports = {
         symbol: '',
         symbolImg: '',
         suitMeaning: 'Information about the meaning of Swords here',
-        suitHistory: 'History of Swords here'
+        suitHistory: 'History of Swords here',
+        createdAt: new Date(),
+        updatedAt: new Date()
       },
       {
         arcana: 'Minor',
@@ -42,7 +50,9 @@ module.exports = {
         symbol: '',
         symbolImg: '',
         suitMeaning: 'Information about the meaning of Wands here',
-        suitHistory: 'History of Wands here'
+        suitHistory: 'History of Wands here',
+        createdAt: new Date(),
+        updatedAt: new Date()
       }
     ], {});
   },

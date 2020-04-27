@@ -15,7 +15,9 @@ module.exports = {
         history: 'history of specific card',
         description: 'verbal description of imagery',
         value: 1,
-        numerology: 'info about what the card means in numerology'
+        numerology: 'info about what the card means in numerology',
+        createdAt: new Date(),
+        updatedAt: new Date()
       },
       {
         suitId: 1,
@@ -28,7 +30,9 @@ module.exports = {
         history: 'history of specific card',
         description: 'verbal description of imagery',
         value: 1,
-        numerology: 'info about what the card means in numerology'
+        numerology: 'info about what the card means in numerology',
+        createdAt: new Date(),
+        updatedAt: new Date()
       },
       {
         suitId: 1,
@@ -41,7 +45,9 @@ module.exports = {
         history: 'history of specific card',
         description: 'verbal description of imagery',
         value: 1,
-        numerology: 'info about what the card means in numerology'
+        numerology: 'info about what the card means in numerology',
+        createdAt: new Date(),
+        updatedAt: new Date()
       },
       {
         suitId: 2,
@@ -54,7 +60,9 @@ module.exports = {
         history: 'history of specific card',
         description: 'verbal description of imagery',
         value: 1,
-        numerology: 'info about what the card means in numerology'
+        numerology: 'info about what the card means in numerology',
+        createdAt: new Date(),
+        updatedAt: new Date()
       }
     ], {});
   },
