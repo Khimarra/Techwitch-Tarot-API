@@ -1,0 +1,28 @@
+{
+  "name": "Techwitch-Tarot-API",
+  "version": "1.0.0",
+  "description": "### Basic Structure:",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Khimarra/Techwitch-Tarot-API.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Khimarra/Techwitch-Tarot-API/issues"
+  },
+  "homepage": "https://github.com/Khimarra/Techwitch-Tarot-API#readme",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "express": "^4.17.1",
+    "morgan": "^1.10.0",
+    "nodemon": "^2.0.3",
+    "pg": "^8.0.3",
+    "sequelize": "^5.21.7"
+  }
+}
