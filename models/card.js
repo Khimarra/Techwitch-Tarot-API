@@ -14,7 +14,9 @@ module.exports = (sequelize, DataTypes) => {
     numerology: DataTypes.STRING
   }, {});
   Card.associate = function(models) {
-    // associations can be defined here
+    Card.belongsTo(models.Suit,{
+      foreignKey: 'suitId'
+    })
   };
   return Card;
 };

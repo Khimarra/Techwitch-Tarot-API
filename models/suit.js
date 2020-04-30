@@ -9,7 +9,10 @@ module.exports = (sequelize, DataTypes) => {
     suitHistory: DataTypes.STRING
   }, {});
   Suit.associate = function(models) {
-    // associations can be defined here
+    Suit.hasMany(models.Card, {
+      foreignKey: 'suitId',
+      onDelete: 'CASCADE'
+    })
   };
   return Suit;
 };
